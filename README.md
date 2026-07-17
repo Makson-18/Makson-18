@@ -6,7 +6,7 @@
 
 ## 🛠️ Мой стек
 * **Языки:** Python, JavaScript, HTML/CSS
-* **ML/DL:** TensorFlow, Keras, NumPy, Pandas, Scikit-learn
+* **ML/DL:** TensorFlow, Keras, NumPy, Pandas, Scikit-learn, есть база Pytorch
 * **Бэкенд и деплой:** FastAPI, Uvicorn, Hugging Face Spaces
 
 ---
