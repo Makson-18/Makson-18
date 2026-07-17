@@ -1,36 +1,37 @@
-# Hi there, I'm Maxim! 👋
-### ML Engineer & Backend Developer (Junior+)
+# Привет, я Максим! 👋
 
-I don't just train models in Jupyter Notebooks — I build, optimize, and deploy production-ready AI services.
-
----
-
-## 🛠️ Tech Stack & Skills
-* **Languages:** Python (3.12+, OOP), JavaScript, HTML5/CSS3
-* **AI & Machine Learning:** TensorFlow, Keras, NumPy, Pandas, Scikit-learn
-* **Backend & Deploy:** FastAPI, Uvicorn, Fetch API, Hugging Face Spaces
+Мне 17 лет, занимаюсь Machine Learning и бэкенд-разработкой. Не люблю тратить время на чистую теорию, мне интереснее собирать работающие проекты и доводить их до продакшена. 
 
 ---
 
-## 🚀 Key Projects (Featured)
-
-### 🍅 [Tomato AI](https://github.com)
-* **What it is:** End-to-End web service for plant disease classification (10 classes based on PlantVillage dataset).
-* **Tech:** FastAPI, TensorFlow/Keras, NumPy (normalization & batch expansion), HTML/JS (Fetch API).
-* **Live Demo:** [Check it out on Hugging Face Spaces](https://huggingface.co)
-
-### 🦖 [Google Dino Bot](https://github.com)
-* **What it is:** Ultra-fast computer vision bot that automates Google Dino game in real-time.
-* **Tech:** Convolutional Neural Network (CNN) on TensorFlow, `mss` for high-speed screen capture.
-* **Optimization:** Used `.cache()` and `.prefetch()` for dataloader. Optimized inference via `model(..., training=False)` to maximize FPS and dodge obstacles smoothly (Score: 890+).
-
-### 🧠 [Neural Network from Scratch](https://github.com)
-* **What it is:** Single-neuron (Logistic Regression) architecture built completely from scratch without DL frameworks.
-* **Tech:** Pure NumPy matrix operations (`np.dot`).
-* **Math:** Hand-coded Forward Pass, Sigmoid activation, and manual Backpropagation (Gradient Descent) with Matplotlib loss tracking.
+## 🛠️ Мой стек
+* **Языки:** Python, JavaScript, HTML/CSS
+* **ML/DL:** TensorFlow, Keras, NumPy, Pandas, Scikit-learn
+* **Бэкенд и деплой:** FastAPI, Uvicorn, Hugging Face Spaces
 
 ---
 
-## 📬 Connect with me
-* **GitHub:** You are here! 
-* *Tip for HR/Team Leads: I am open to internships, part-time jobs, and junior-level roles. Ready to pass a coding test within 48 hours.*
+## 🚀 Мои пет-проекты
+
+### 🍅 Tomato AI
+Веб-сервис, который определяет 10 видов болезней томатов по фото листа (обучал на датасете PlantVillage). 
+* **Как устроено:** Обучил модель на Keras/TensorFlow, написал бэкенд на FastAPI, сделал нормализацию картинок через NumPy и связал всё с фронтендом через асинхронные запросы (Fetch API).
+* **Потыкать руками:** Мой деплой живет тут — [Hugging Face Spaces](https://huggingface.co)
+* **Код проекта:** [Репозиторий Tomato](https://github.com)
+
+### 🦖 Google Dino Bot
+ИИ-бот, который сам играет в "Динозаврика" в реальном времени через захват экрана. Стабильно набирает около 890+ очков.
+* **В чём фишка:** Написал бинарную CNN (сверточную сеть). Чтобы бот не лагал, оптимизировал скорость загрузки кадров через библиотеку `mss`, добавил `.cache()` и `.prefetch()` для даталоадера, а инференс модели вызываю через `model(..., training=False)`. Это дало максимальный FPS.
+* **Код проекта:** [Репозиторий Dino](https://github.com)
+
+### 🧠 Нейронка на чистом NumPy
+Реализация однослойного нейрона (логистической регрессии) с нуля, вообще без использования тяжелых фреймворков.
+* **Зачем сделал:** Чтобы до конца понять математику под капотом. Вручную на чистом NumPy расписал матричное перемножение (`np.dot`), функцию Сигмоиды, её производную и алгоритм обратного распространения ошибки (Backpropagation) для градиентного спуска. График сходимости Loss-функции вывел через Matplotlib.
+* **Код проекта:** [Репозиторий NumPy-Neiron](https://github.com)
+
+---
+
+## 📬 Контакты
+* Ищу оплачиваемую стажировку или парт-тайм задачи в ML/Бэкенде. 
+* Готов пройти технический созвон или сделать боевое тестовое задание за пару дней.
+* Пишите прямо сюда в Issues или откликайтесь на мои заявки!
