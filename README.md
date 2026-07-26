@@ -16,7 +16,7 @@ ML / Computer Vision инженер. Специализируюсь на обу�
 ### 🍅 Tomato AI
 Веб-сервис, который определяет 10 видов болезней томатов по фото листа (обучал на датасете PlantVillage). 
 * **Как устроено:** Обучил модель на Keras/TensorFlow, написал бэкенд на FastAPI, сделал нормализацию картинок через NumPy и связал всё с фронтендом через асинхронные запросы (Fetch API).
-* **Потыкать руками:** Мой деплой живет тут — [Hugging Face Spaces](https://huggingface.co)
+* **Потыкать руками:** Мой деплой живет тут — [Hugging Face Spaces](https://huggingface.co/spaces/a21d/tomato-ai)
 * **Код проекта:** [Репозиторий Tomato](https://github.com/Makson-18/Tomato)
 
 ### 🦖 Google Dino Bot
