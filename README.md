@@ -6,9 +6,7 @@ ML / Computer Vision инженер. Специализируюсь на обу�
 
 ## 🛠️ Мой стек
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
-
 ![C++](https://img.shields.io/badge/C%2B%2B-v17-blue)
-
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26-orange)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
