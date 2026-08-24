@@ -1,5 +1,12 @@
 # Привет, я Максим! 👋
-![OpenыCV](https://img.shields.io/badge/OpenCV-v4.10-blue)
+
+![Python](https://img.shields.io/badge/Python-3.14-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-v4.10-blue)
+![Keras](https://img.shields.io/badge/Keras-v3.0-red)
+![NumPy](https://img.shields.io/badge/NumPy-v1.26-blue)
+![Pandas](https://img.shields.io/badge/Pandas-v2.2-darkborder)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-v1.4-orange)
+![PyTorch](https://img.shields.io/badge/PyTorch-v2.2-orange)
 
 ML / Computer Vision инженер. Специализируюсь на обучении нейросетей, низкоуровневой оптимизации CV-пайплайнов и деплое моделей в продакшен. Нацелен на создание быстрых и эффективных коммерческих систем.
 
