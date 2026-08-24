@@ -1,5 +1,6 @@
 # Привет, я Максим! 👋
-![Python](https://shields.io) ![TensorFlow](https://shields.io) ![Keras](https://shields.io) ![NumPy](https://shields.io) ![OpenCV](https://shields.io)
+![Python]([https://shields.io](https://img.shields.io/badge/Python-3.14-blue
+)) 
 
 ML / Computer Vision инженер. Специализируюсь на обучении нейросетей, низкоуровневой оптимизации CV-пайплайнов и деплое моделей в продакшен. Нацелен на создание быстрых и эффективных коммерческих систем.
 
