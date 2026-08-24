@@ -55,5 +55,5 @@ ML / Computer Vision инженер. Специализируюсь на обу�
 * 💼 Ищу оплачиваемую стажировку или парт-тайм задачи в **ML / Backend**.
 * 😎 Готов пройти технический созвон или сделать боевое тестовое задание за пару дней.
 * 💬 **Пишите мне**: [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0)](https://t.me/maks_planche)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2a0942a0-b699-42e6-b107-50aa0a1ac7c0" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7409e519-b972-47de-852c-60b50691b942" />
