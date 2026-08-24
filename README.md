@@ -1,6 +1,5 @@
 # Привет, я Максим! 👋
-![Python](https://shields.io)
-![OpenCV](https://shields.io)
+https://img.shields.io/badge/OpenCV-v4.10-blue
 
 
 
