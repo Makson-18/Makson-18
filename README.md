@@ -56,5 +56,5 @@ ML / Computer Vision инженер. Специализируюсь на обу�
 * ⚡ Готов пройти технический созвон или сделать боевое тестовое задание за пару дней.
 * 💬 Пишите мне в **Telegram**:
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0)](https://t.me/maks_planche)
+[![Telegram](https://shields.io)](https://t.me/maks_planche)
 
