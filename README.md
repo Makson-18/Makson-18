@@ -7,6 +7,12 @@
 ![Pandas](https://img.shields.io/badge/Pandas-v2.2-darkborder)
 ![Scikit--learn](https://img.shields.io/badge/Scikit--learn-v1.4-orange)
 ![PyTorch](https://img.shields.io/badge/PyTorch-v2.2-orange)
+![C++](https://img.shields.io/badge/C%2B%2B-v17-blue)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26-orange)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688-teal)
+![Uvicorn](https://img.shields.io/badge/Uvicorn-499848-green)
+![Hugging_Face](https://img.shields.io/badge/Hugging_Face-Spaces-yellow)
 
 ML / Computer Vision инженер. Специализируюсь на обучении нейросетей, низкоуровневой оптимизации CV-пайплайнов и деплое моделей в продакшен. Нацелен на создание быстрых и эффективных коммерческих систем.
 
