@@ -29,7 +29,7 @@ ML / Computer Vision engineer. I specialize in training neural networks, low-lev
 
 A web service that detects 10 types of tomato diseases from a leaf photo (trained on the PlantVillage dataset).
 
-- **How it works:** Trained the model on Keras/TensorFlow, wrote the backend using FastAPI, implemented image normalization via NumPy, and connected everything to the frontend using asynchronous requests (Fetch API).
+* **How it works:** Trained the model on Keras/TensorFlow, wrote the backend using FastAPI, implemented image normalization via NumPy, and connected everything to the frontend using asynchronous requests (Fetch API).
 - **Try it yourself:** My deployment lives here — [Hugging Face Spaces](https://huggingface.co/spaces/a21d/tomato-ai)
 - **Project code:** [Репозиторий Tomato](https://github.com/Makson-18/Tomato)
 
@@ -51,6 +51,8 @@ An AI bot that plays the "Dino" game by itself in real-time via screen capture. 
     - **What was done:** A lightweight forward pass engine for neural network layers in pure C++ without using heavy external libraries (OpenCV).
     - **Why I did it:** For extreme acceleration of Computer Vision pipelines. Optimized data locality (Hardware Cache) through pre-allocation of Contiguous arrays via std::vector::reserve. Implemented virtual 3D-indexing of flat 1D RAM memory under batch-format using the pointer strides formula for fast extraction of color channels.
     - **Project code:** [low-level-computer-vision](https://github.com/Makson-18/low-level-computer-vision)
+
+---
 
 ## 📬 Contacts
 
