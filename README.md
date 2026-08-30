@@ -29,9 +29,9 @@ ML / Computer Vision engineer. I specialize in training neural networks, low-lev
 
 A web service that detects 10 types of tomato diseases from a leaf photo (trained on the PlantVillage dataset).
 
-* **How it works:** Trained the model on Keras/TensorFlow, wrote the backend using FastAPI, implemented image normalization via NumPy, and connected everything to the frontend using asynchronous requests (Fetch API).
-* **Try it yourself:** My deployment lives here — [Hugging Face Spaces](https://huggingface.co/spaces/a21d/tomato-ai)
-* **Project code:** [Репозиторий Tomato](https://github.com/Makson-18/Tomato)
+- **How it works:** Trained the model on Keras/TensorFlow, wrote the backend using FastAPI, implemented image normalization via NumPy, and connected everything to the frontend using asynchronous requests (Fetch API).
+- **Try it yourself:** My deployment lives here — [Hugging Face Spaces](https://huggingface.co/spaces/a21d/tomato-ai)
+- **Project code:** [Репозиторий Tomato](https://github.com/Makson-18/Tomato)
 
 ### 🦖 Google Dino Bot
 
