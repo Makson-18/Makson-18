@@ -1,10 +1,9 @@
-# Привет, я Максим! 👋
- 
-ML / Computer Vision инженер. Специализируюсь на обучении нейросетей, низкоуровневой оптимизации CV-пайплайнов и деплое моделей в продакшен. Нацелен на создание быстрых и эффективных коммерческих систем.
+# Hi, I'm Maxim! 👋
 
----
+ML / Computer Vision engineer. I specialize in training neural networks, low-level optimization of CV pipelines, and deploying models to production. Focused on creating fast and efficient commercial systems.
 
-## 🛠️ Мой стек
+## 🛠️ My Stack
+
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![C++](https://img.shields.io/badge/C%2B%2B-v17-blue)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26-orange)
@@ -20,41 +19,40 @@ ML / Computer Vision инженер. Специализируюсь на обу�
 ![Uvicorn](https://img.shields.io/badge/Uvicorn-499848-green)
 ![Hugging_Face](https://img.shields.io/badge/Hugging_Face-Spaces-yellow)
 
----
-
-## 🚀 Мои пет-проекты
+## 🚀 My Pet Projects
 
 ### 🍅 Tomato AI
-Веб-сервис, который определяет 10 видов болезней томатов по фото листа (обучал на датасете PlantVillage). 
-* **Как устроено:** Обучил модель на Keras/TensorFlow, написал бэкенд на FastAPI, сделал нормализацию картинок через NumPy и связал всё с фронтендом через асинхронные запросы (Fetch API).
-* **Потыкать руками:** Мой деплой живет тут — [Hugging Face Spaces](https://huggingface.co/spaces/a21d/tomato-ai)
-* **Код проекта:** [Репозиторий Tomato](https://github.com/Makson-18/Tomato)
+
+A web service that detects 10 types of tomato diseases from a leaf photo (trained on the PlantVillage dataset).
+
+- **How it works:** Trained the model on Keras/TensorFlow, wrote the backend using FastAPI, implemented image normalization via NumPy, and connected everything to the frontend using asynchronous requests (Fetch API).
+- **Try it yourself:** My deployment lives here — [Hugging Face Spaces](https://huggingface.co/spaces/a21d/tomato-ai)
+- **Project code:** [Репозиторий Tomato](https://github.com/Makson-18/Tomato)
 
 ### 🦖 Google Dino Bot
-ИИ-бот, который сам играет в "Динозаврика" в реальном времени через захват экрана. Стабильно набирает около 890+ очков.
-* **В чём фишка:** Написал бинарную CNN (сверточную сеть). Чтобы бот не лагал, оптимизировал скорость загрузки кадров через библиотеку `mss`, добавил `.cache()` и `.prefetch()` для даталоадера, а инференс модели вызываю через `model(..., training=False)`. Это дало максимальный FPS.
-* **Код проекта:** [Репозиторий Dino](https://github.com/Makson-18/dino)
 
-### ⚡ Математические ядра и Оптимизация (NumPy & C++)
+An AI bot that plays the "Dino" game by itself in real-time via screen capture. Constantly scores around 890+ points.
 
-*   **Нейронная сеть с нуля (Чистый NumPy)**
-    *   **Что сделано:** Реализация однослойного нейрона (логистической регрессии) полностью с нуля, вообще без использования тяжелых фреймворков.
-    *   **Зачем сделал:** Чтобы до конца понять математику под капотом. Вручную на чистом NumPy расписал матричное перемножение (`np.dot`), функцию Сигмоиды, её производную и алгоритм обратного распространения ошибки (`Backpropagation`) для градиентного спуска. График сходимости Loss-функции вывел через Matplotlib.
-    *   **Код проекта:** Репозиторий [NumPy-Neiron](https://github.com/Makson-18/numpy)
+- **What's the trick:** Wrote a binary CNN (convolutional neural network). To eliminate bot lagging, I optimized frame loading speeds via the mss library, added .cache() and .prefetch() for the dataloader, and invoke model inference via model(..., training=False). This gave maximum FPS.
+- **Project code:** [Репозиторий Dino](https://github.com/Makson-18/dino)
 
-*   **Высокоскоростной инференс (Нативный C++)**
-    *   **Что сделано:** Легковесный движок прямого прохода (Forward Pass) нейросетевых слоев на чистом C++ без использования тяжелых внешних библиотек (OpenCV).
-    *   **Зачем сделал:** Для экстремального разгона Computer Vision пайплайнов. Оптимизировал локальность данных (Hardware Cache) за счет преаллокации Contiguous-массивов через `std::vector::reserve`. Реализовал виртуальную 3D-разметку плоской 1D-памяти ОЗУ под батч-формат с помощью формулы pointer strides для быстрого извлечения цветовых каналов.
-    *   **Код проекта:** Репозиторий [low-level-computer-vision](https://github.com/Makson-18/low-level-computer-vision)
+### ⚡ Mathematical Kernels & Optimization (NumPy & C++)
 
+- **Neural Network from Scratch (Pure NumPy)**
+    - **What was done:** Implementation of a single-layer neuron (logistic regression) completely from scratch, without using heavy frameworks at all.
+    - **Why I did it:** To fully understand the mathematics under the hood. Manually wrote matrix multiplication (np.dot), the Sigmoid function, its derivative, and the Backpropagation algorithm for gradient descent using pure NumPy. The Loss function convergence graph was plotted via Matplotlib.
+    - **Project code:** [NumPy-Neiron](https://github.com/Makson-18/numpy)
 
----
+- **High-Speed Inference (Native C++)**
+    - **What was done:** A lightweight forward pass engine for neural network layers in pure C++ without using heavy external libraries (OpenCV).
+    - **Why I did it:** For extreme acceleration of Computer Vision pipelines. Optimized data locality (Hardware Cache) through pre-allocation of Contiguous arrays via std::vector::reserve. Implemented virtual 3D-indexing of flat 1D RAM memory under batch-format using the pointer strides formula for fast extraction of color channels.
+    - **Project code:** [low-level-computer-vision](https://github.com/Makson-18/low-level-computer-vision)
 
-## 📬 Контакты
+## 📬 Contacts
 
-* 💼 Ищу оплачиваемую стажировку или парт-тайм задачи в **ML / Backend**.
-* 😎 Готов пройти технический созвон или сделать боевое тестовое задание за пару дней.
-* 💬 **Пишите мне**: [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0)](https://t.me/maks_planche)
+- 💼 Looking for a paid internship or part-time tasks in **ML / Backend**.
+- 😎 Ready to pass a technical interview or complete a coding challenge/test task within a couple of days.
+- 💬 **Write to me**: [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0)](https://t.me/maks_planche)
 [![Discord](https://img.shields.io/badge/Discord-5865F2)](https://discord.com/users/895895318598656022) 
 
 
