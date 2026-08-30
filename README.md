@@ -31,14 +31,14 @@ A web service that detects 10 types of tomato diseases from a leaf photo (traine
 
 - **How it works:** Trained the model on Keras/TensorFlow, wrote the backend using FastAPI, implemented image normalization via NumPy, and connected everything to the frontend using asynchronous requests (Fetch API).
 - **Try it yourself:** My deployment lives here — [Hugging Face Spaces](https://huggingface.co/spaces/a21d/tomato-ai)
-- **Project code:** [Репозиторий Tomato](https://github.com/Makson-18/Tomato)
+- **Project code:** [The repository Tomato](https://github.com/Makson-18/Tomato)
 
 ### 🦖 Google Dino Bot
 
 An AI bot that plays the "Dino" game by itself in real-time via screen capture. Constantly scores around 890+ points.
 
 - **What's the trick:** Wrote a binary CNN (convolutional neural network). To eliminate bot lagging, I optimized frame loading speeds via the mss library, added .cache() and .prefetch() for the dataloader, and invoke model inference via model(..., training=False). This gave maximum FPS.
-- **Project code:** [Репозиторий Dino](https://github.com/Makson-18/dino)
+- **Project code:** [The repositor Dino](https://github.com/Makson-18/dino)
 
 ### ⚡ Mathematical Kernels & Optimization (NumPy & C++)
 
