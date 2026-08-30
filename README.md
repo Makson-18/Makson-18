@@ -2,6 +2,8 @@
 
 ML / Computer Vision engineer. I specialize in training neural networks, low-level optimization of CV pipelines, and deploying models to production. Focused on creating fast and efficient commercial systems.
 
+---
+
 ## 🛠️ My Stack
 
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
@@ -18,6 +20,8 @@ ML / Computer Vision engineer. I specialize in training neural networks, low-lev
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688-teal)
 ![Uvicorn](https://img.shields.io/badge/Uvicorn-499848-green)
 ![Hugging_Face](https://img.shields.io/badge/Hugging_Face-Spaces-yellow)
+
+---
 
 ## 🚀 My Pet Projects
 
